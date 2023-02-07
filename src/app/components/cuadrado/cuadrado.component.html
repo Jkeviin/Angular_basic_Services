@@ -1,0 +1,9 @@
+Sacar Raiz Cuadrada:
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <input type="text" formControlName="n1" >
+  <button type="submit">Calcular</button>
+</form>
+Resultado: {{cuadrado}}
+<br>
+<button [routerLink]="[ '/menu']">regresar</button>

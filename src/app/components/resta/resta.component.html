@@ -1,0 +1,10 @@
+Restar:
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <input type="text" formControlName="n1" >
+  <input type="text" formControlName="n2" >
+  <button type="submit">Restar</button>
+</form>
+Resultado: {{resta}}
+<br>
+<button [routerLink]="[ '/menu']">regresar</button>

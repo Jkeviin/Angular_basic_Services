@@ -1,0 +1,10 @@
+Sumar:
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <input type="text" formControlName="n1" >
+  <input type="text" formControlName="n2" >
+  <button type="submit">Sumar</button>
+</form>
+Resultado: {{suma}}
+<br>
+<button [routerLink]="[ '/menu']">regresar</button>
