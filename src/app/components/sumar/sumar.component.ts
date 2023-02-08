@@ -18,7 +18,7 @@ export class SumarComponent {
   }
 
   ngOnInit(): void {
-    
+
     this.form = this.fb.group({
       n1: ['', Validators.required],
       n2: ['', Validators.required]

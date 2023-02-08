@@ -10,6 +10,7 @@ import { MultiplicarComponent } from './components/multiplicar/multiplicar.compo
 import { CuadradoComponent } from './components/cuadrado/cuadrado.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { RestaComponent } from './components/resta/resta.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RestaComponent } from './components/resta/resta.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
